@@ -5,7 +5,7 @@ conn = pymysql.connect(host='192.168.187.3', port=4567, user='root', db='madang'
 
 cursor = conn.cursor()
 
-cursor.execute('USE madang;') #madang database 사용
+cursor.execute('USE madang;') #madang database 사용함
 
 work = input("CHOOSE WORK: SEARCH, INSERT, DELETE : ")
 if work == "SEARCH":
